@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clé de validation – CyberLogin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='img/logo.png') }}" class="logo" alt="logo">
+    <div class="flag-container">
+        <h2>✅ Accès autorisé</h2>
+        <p class="message">Tu as réussi le challenge !</p>
+        <p class="flag">🎯 <strong>{{ flag }}</strong></p>
+    </div>
+</body>
+</html>
